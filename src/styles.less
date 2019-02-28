@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import "less/variables";
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: @bg-color-light;
+  font-family: @font-main;
+  font-size: @font-size-main;
+  color: @font-color-dark;
+  font-weight: @font-weight-normal;
+  .content {
+    padding: @unit-half;
+    padding-bottom: (@unit * 2) + @font-size-main;
+  }
+}
