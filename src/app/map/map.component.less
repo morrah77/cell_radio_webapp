@@ -1,0 +1,23 @@
+@import "../../less/variables";
+
+.info {
+  li {
+    display: inline;
+    list-style: none;
+    padding: 0 @unit;
+    label {
+      font-weight: @font-weight-bold;
+      padding: 0 @unit-half 0 0;
+    }
+    > .value {
+      color: @font-color-middle;
+      border: 1px @bg-color-dark solid;
+    }
+  };
+}
+
+.map {
+  width: 100%;
+  min-height: 300px;
+  border: 1px @bg-color-dark solid;
+}
